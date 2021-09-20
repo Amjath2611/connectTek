@@ -22,7 +22,7 @@ const getDefaultTheme = (): DefaultTheme['name'] => {
   }
 };
 
-const LayoutPage: React.FC<any> = ({ children, ...rest }) => {
+const LayoutPage: React.FC<any> = ({ children }) => {
   const [theme, setTheme] = useState<DefaultTheme['name']>('default');
   const [dir, setDir] = useState<'ltr' | 'rtl'>('ltr');
   const sidebarRef = useRef<SidebarRefObject>(null);
