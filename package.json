@@ -2,7 +2,7 @@
   "homepage": "https://Amjath2611.github.io/connectTek",
   "name": "iot-dashboard",
   "private": true,
-  "description": "Admin dashboard template based on nextjs with @paljs/ui component package",
+  "description": "",
   "version": "0.1.0",
   "author": "",
   "dependencies": {
@@ -33,13 +33,6 @@
     "start": "next start --port ${PORT-3000}",
     "export": "yarn build && next export -o _static",
     "prepare": "husky install"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/paljs/nextjs-admin-template"
-  },
-  "bugs": {
-    "url": "https://github.com/paljs/nextjs-admin-template/issues"
   },
   "devDependencies": {
     "@types/node": "16.7.1",
